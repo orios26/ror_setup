@@ -19,4 +19,4 @@ gem install rails -v 5.2.2
 echo "CHECKING VERSIONS TO VERIFY SUCCESSFUL INSTALL"
 ruby --version
 rails --version
-nodejs --version
+node --version
