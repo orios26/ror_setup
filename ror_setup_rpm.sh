@@ -20,5 +20,8 @@ echo "RUBY:----------------------"
 ruby --version
 echo "RAILS:---------------------"
 rails --version
+<<<<<<< HEAD
 echo "NODEJS---------------------"
+=======
+>>>>>>> 00e49ee36a543e7f2cd6228ac97d2871d9e75a8d
 node --version
