@@ -7,7 +7,6 @@ source ~/.rvm/scripts/rvm
 rvm get stable --autolibs=enable
 rvm install "ruby-2.6.0"
 rvm --default use ruby-2.6.0
-curl -sL https://rpm.nodesource.com/setup_10.x | bash -
 curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
 source ~/.bash_profile
 nvm install v0.11.13
@@ -17,6 +16,9 @@ gem update --system
 gem install rails -v 5.2.2
 
 echo "CHECKING VERSIONS TO VERIFY SUCCESSFUL INSTALL"
+echo "RUBY:----------------------"
 ruby --version
+echo "RAILS:---------------------"
 rails --version
-nodejs --version
+echo "NODEJS---------------------"
+node --version
