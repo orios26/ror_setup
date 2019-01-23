@@ -14,6 +14,7 @@ nvm alias default v0.11.13
 default -> v0.11.13
 gem update --system
 gem install rails -v 5.2.2
+source ~/.bash_profile
 
 echo "CHECKING VERSIONS TO VERIFY SUCCESSFUL INSTALL"
 echo "RUBY:----------------------"
