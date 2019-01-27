@@ -8,3 +8,4 @@ yum install postgresql11 postgresql11-server
 
 # uncomment listen_addresses and port in /var/lib/pgsql/11/data/postgresql.conf
 # modify permissions in /var/lib/pgsql/11/data/pg_hba.conf
+#gem install pg -- --with-pg-config=/usr/pgsql-11.1/bin/pg_config
