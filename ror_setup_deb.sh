@@ -17,6 +17,10 @@ sudo apt install gcc g++ make -y
 gem update --system
 gem install rails -v 5.2.1
 
+sudo apt install postgresql postgresql-contrib -y
+sudo apt-get install libpq-dev -y
+
+
 echo "*************CHECKING VERSIONS********************"
 echo "RAILS"
 rails --version
@@ -24,4 +28,4 @@ echo "RUBY"
 ruby --version
 echo "NODEJS"
 nodejs --version
-
+sudo su - postgres -c "SELECT version();"
