@@ -27,4 +27,3 @@ echo "RUBY"
 ruby --version
 echo "NODEJS"
 nodejs --version
-sudo su - postgres -c "SELECT version();"
