@@ -4,7 +4,7 @@
 sudo apt install curl -y
 command curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
 curl -sSL https://get.rvm.io | bash 
-source /home/$USER/.rvm/scripts/rvm
+echo 'source /home/$USER/.rvm/scripts/rvm' >> .bashrc
 rvm install 2.5.1
 rvm --default use ruby-2.5.1
 
